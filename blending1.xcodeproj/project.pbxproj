@@ -13,6 +13,10 @@
 		ED9CA17926158C6400E8542D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9CA17726158C6400E8542D /* Main.storyboard */; };
 		ED9CA17B26158C6500E8542D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9CA17A26158C6500E8542D /* Assets.xcassets */; };
 		ED9CA17E26158C6500E8542D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9CA17C26158C6500E8542D /* LaunchScreen.storyboard */; };
+		ED9CA18726158C9000E8542D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CA18626158C9000E8542D /* User.swift */; };
+		ED9CA18A26158D4200E8542D /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CA18926158D4200E8542D /* Tweet.swift */; };
+		ED9CA18D26158DAA00E8542D /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CA18C26158DAA00E8542D /* TimelineViewController.swift */; };
+		ED9CA1942615987D00E8542D /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CA1932615987D00E8542D /* TweetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ED9CA17A26158C6500E8542D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED9CA17D26158C6500E8542D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED9CA17F26158C6500E8542D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9CA18626158C9000E8542D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ED9CA18926158D4200E8542D /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		ED9CA18C26158DAA00E8542D /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		ED9CA1932615987D00E8542D /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,10 @@
 		ED9CA16526158C6400E8542D = {
 			isa = PBXGroup;
 			children = (
+				ED9CA1932615987D00E8542D /* TweetTableViewCell.swift */,
+				ED9CA18C26158DAA00E8542D /* TimelineViewController.swift */,
+				ED9CA18926158D4200E8542D /* Tweet.swift */,
+				ED9CA18626158C9000E8542D /* User.swift */,
 				ED9CA17026158C6400E8542D /* blending1 */,
 				ED9CA16F26158C6400E8542D /* Products */,
 			);
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9CA18726158C9000E8542D /* User.swift in Sources */,
+				ED9CA18A26158D4200E8542D /* Tweet.swift in Sources */,
 				ED9CA17626158C6400E8542D /* ViewController.swift in Sources */,
 				ED9CA17226158C6400E8542D /* AppDelegate.swift in Sources */,
 				ED9CA17426158C6400E8542D /* SceneDelegate.swift in Sources */,
+				ED9CA18D26158DAA00E8542D /* TimelineViewController.swift in Sources */,
+				ED9CA1942615987D00E8542D /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
