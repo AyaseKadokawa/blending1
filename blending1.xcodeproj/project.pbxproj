@@ -48,10 +48,6 @@
 		ED9CA16526158C6400E8542D = {
 			isa = PBXGroup;
 			children = (
-				ED9CA1932615987D00E8542D /* TweetTableViewCell.swift */,
-				ED9CA18C26158DAA00E8542D /* TimelineViewController.swift */,
-				ED9CA18926158D4200E8542D /* Tweet.swift */,
-				ED9CA18626158C9000E8542D /* User.swift */,
 				ED9CA17026158C6400E8542D /* blending1 */,
 				ED9CA16F26158C6400E8542D /* Products */,
 			);
@@ -68,6 +64,10 @@
 		ED9CA17026158C6400E8542D /* blending1 */ = {
 			isa = PBXGroup;
 			children = (
+				ED9CA1932615987D00E8542D /* TweetTableViewCell.swift */,
+				ED9CA18C26158DAA00E8542D /* TimelineViewController.swift */,
+				ED9CA18926158D4200E8542D /* Tweet.swift */,
+				ED9CA18626158C9000E8542D /* User.swift */,
 				ED9CA17126158C6400E8542D /* AppDelegate.swift */,
 				ED9CA17326158C6400E8542D /* SceneDelegate.swift */,
 				ED9CA17526158C6400E8542D /* ViewController.swift */,
